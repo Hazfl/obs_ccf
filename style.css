@@ -39,15 +39,15 @@ header.MuiAppBar-positionFixed {
     display: none;
 }
 
-
+.sc-ezjsFQ {
+  display: none;
+}
 
 .MuiDialog-root {
   display: none;
 }
 
-.MuiSnackbar-root {
-    display: none;
-}
+
 
 div[style="position: relative; width: 100%; height: 100%; overflow: hidden;"] {
     display: none;
