@@ -14,10 +14,7 @@ body {
   display: none;
 }
 
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4,
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6 {
-    display: none;
-}
+
 /* 패널*/
 div[tabindex="0"][style^="right:"] {
     width: 100%;
