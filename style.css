@@ -1,3 +1,13 @@
 body {
   background-color: transparent !important;
 }
+
+
+.MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation6 sc-fpqJid iQKgoc css-175dgcc {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 9999 !important;
+}
