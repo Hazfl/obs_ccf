@@ -1,8 +1,8 @@
 /* ============================================================
    chat.css — 채팅 로그 재배치 + 디자인
    ============================================================ */
-@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/asset/font.css");
-@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/asset/reset.css");
+@import url("https://hazfl.github.io/obs_ccf/asset/font.css");
+@import url("https://hazfl.github.io/obs_ccf/asset/reset.css");
 
 .SELECTOR_chat_log {
   position: fixed !important;

@@ -1,8 +1,8 @@
 /* ============================================================
    portrait.css — 캐릭터 입간판(立ち絵) 재배치
    ============================================================ */
-@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/asset/font.css");
-@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/asset/reset.css");
+@import url("https://hazfl.github.io/obs_ccf/CSS/asset/font.css");
+@import url("https://hazfl.github.io/obs_ccf/CSS/asset/reset.css");
 
 .SELECTOR_character_portrait {
   position: fixed !important;

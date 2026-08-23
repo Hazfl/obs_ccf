@@ -1,8 +1,8 @@
 /* ============================================================
    status.css — 캐릭터 스테이터스 패널
    ============================================================ */
-@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/asset/font.css");
-@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/asset/reset.css");
+@import url("https://hazfl.github.io/obs_ccf/CSS/asset/font.css");
+@import url("https://hazfl.github.io/obs_ccf/CSS/asset/reset.css");
 
 .SELECTOR_status_panel {
   position: fixed !important;
