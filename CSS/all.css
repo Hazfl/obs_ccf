@@ -1,0 +1,18 @@
+/* ============================================================
+   all.css — 전체 모듈 통합
+   OBS 커스텀 CSS 칸에는 이 파일 하나만 import하면 됨:
+
+     @import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/all.css");
+
+   개별 모듈만 쓰고 싶으면 board.css, chat.css 등을 따로 import해도 됨
+   (단, 그 경우에도 asset/font.css, asset/reset.css는 항상 먼저 import)
+   ============================================================ */
+
+@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/asset/font.css");
+@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/asset/reset.css");
+@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/board.css");
+@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/chat.css");
+@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/balloon.css");
+@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/status.css");
+@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/timer.css");
+@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/portrait.css");

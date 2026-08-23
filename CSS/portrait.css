@@ -1,0 +1,13 @@
+/* ============================================================
+   portrait.css — 캐릭터 입간판(立ち絵) 재배치
+   ============================================================ */
+@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/asset/font.css");
+@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/asset/reset.css");
+
+.SELECTOR_character_portrait {
+  position: fixed !important;
+  bottom: 0; left: 0;
+  width: 20vw !important;
+  height: auto !important;
+  z-index: 3;
+}

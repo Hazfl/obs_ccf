@@ -1,0 +1,32 @@
+/* ============================================================
+   reset.css — fixed 좌표 기준점 리셋 + 불필요 UI 제거
+   ============================================================ */
+
+html, body {
+  overflow: visible !important;
+  background: transparent !important;
+}
+
+#root,
+[class*="app"],
+[class*="Layout"],
+[class*="layout"] {
+  transform: none !important;
+  overflow: visible !important;
+}
+
+header,
+nav,
+.SELECTOR_toolbar,
+.SELECTOR_ad_banner {
+  display: none !important;
+}
+
+:root {
+  --panel-bg: rgba(15, 15, 20, 0.85);
+  --panel-border: 2px solid #e6b800;
+  --panel-radius: 12px;
+  --panel-padding: 12px;
+  --text-color: #f5f5f5;
+  --accent-color: #e6b800;
+}

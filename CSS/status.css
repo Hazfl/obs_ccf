@@ -1,0 +1,25 @@
+/* ============================================================
+   status.css — 캐릭터 스테이터스 패널
+   ============================================================ */
+@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/asset/font.css");
+@import url("https://YOUR_USERNAME.github.io/ccfolia-obs-kr/CSS/asset/reset.css");
+
+.SELECTOR_status_panel {
+  position: fixed !important;
+  bottom: 0; right: 0;
+  width: 32vw !important;
+  height: 45vh !important;
+  z-index: 2;
+
+  background: var(--panel-bg);
+  border: var(--panel-border);
+  border-radius: var(--panel-radius);
+  padding: var(--panel-padding);
+  font-family: var(--font-base) !important;
+  color: var(--text-color);
+}
+
+.SELECTOR_status_char_name {
+  font-family: var(--font-display) !important;
+  color: var(--accent-color);
+}
