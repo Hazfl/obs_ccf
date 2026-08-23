@@ -14,7 +14,8 @@ body {
   display: none;
 }
 
-.MuiDrawer-root.MuiDrawer-docked {
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4,
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6 {
     display: none;
 }
 /* 패널*/
