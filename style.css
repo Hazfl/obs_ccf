@@ -5,7 +5,7 @@ body {
     margin: 0px auto;
     overflow: hidden;
 }
-
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0{display: none;}
 ::-webkit-scrollbar {
     display: none !important;
 }
