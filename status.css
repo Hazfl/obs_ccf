@@ -6,3 +6,11 @@ header.MuiAppBar-positionFixed+div {display: none;}
 [style^='transform: translate'] > [style^='transform: scale'] > div:nth-child(1) {display: none;}
 
 .MuiList-root {display: none;}
+
+.sc-iuhWPH {
+  display: none;
+}
+
+.sc-ezjsFQ {
+  display: none;
+}
