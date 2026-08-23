@@ -5,4 +5,3 @@ div[tabindex="0"][style^="right:"]>div:nth-child(1) {display: none;}
 header.MuiAppBar-positionFixed+div {display: none;}
 [style^='transform: translate'] > [style^='transform: scale'] > div:nth-child(1) {display: none;}
 
-figure {display: none;}
