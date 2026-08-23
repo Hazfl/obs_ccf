@@ -1,4 +1,4 @@
-/* obs,스크롤,카드데스크,컨트롤,드래그,컨트린,다이스,수정,헤더,마크패널,모달,모니터링,새주사위,스케일링,스크린패널,타이머,볼륨 */
+/* obs,스크롤,카드데스크,컨트롤,드래그,다이스,수정,헤더,마크패널,모달,모니터링,새주사위,스케일링,스크린패널,타이머,볼륨 */
 
 body {
     background-color: rgba(0, 0, 0, 0);
@@ -10,7 +10,9 @@ body {
     display: none !important;
 }
 
-
+.sc-iiBnab {
+  display: none;
+}
 
 .MuiDrawer-root.MuiDrawer-docked {
     display: none;
@@ -18,11 +20,6 @@ body {
 /* 패널*/
 div[tabindex="0"][style^="right:"] {
     width: 100%;
-}
-
-[aria-label="Ctrl + ドラッグ"],
-[aria-label="Command + ドラッグ"] {
-  display: none;
 }
 
 [aria-label="Ctrl + ドラッグ"],
@@ -42,9 +39,7 @@ header.MuiAppBar-positionFixed {
     display: none;
 }
 
-.sc-ezjsFQ {
-  display: none;
-}
+
 
 .MuiDialog-root {
   display: none;
