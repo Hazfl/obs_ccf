@@ -2,7 +2,11 @@ html, body {
   background-color: transparent !important;
   visibility: hidden !important;
 }
- 
+
+.noscroll {
+  visibility: hidden !important;
+}
+
 .MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation6 sc-dVSXPv ktZsQs css-175dgcc * {
   visibility: visible !important;
 }
