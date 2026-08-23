@@ -1,8 +1,6 @@
 @import url("https://hazfl.github.io/obs_ccf/style.css");
 #root .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation6 {display: none;}
 
-figure {display: none;}
-
 div[class^="sc-"] > [class^="MuiBadge-root sc-"],div[class^="sc-"] > [class^="MuiBadge-root sc-"] + div {display: none;}
 
 .MuiList-root {display: none;}
