@@ -1,0 +1,8 @@
+@import url("https://hazfl.github.io/obs_ccf/style.css");
+div[tabindex="0"][style^="right:"]>div:nth-child(1) {display: none;}
+header.MuiAppBar-positionFixed+div {display: none;}
+[style^='transform: translate'] > [style^='transform: scale'] > div:nth-child(1) {display: none;}
+
+figure {display: none;}
+
+div[class^="sc-"] > [class^="MuiBadge-root sc-"],div[class^="sc-"] > [class^="MuiBadge-root sc-"] + div {display: none;}

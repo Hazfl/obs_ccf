@@ -1,21 +1,82 @@
-html, body {
-  background-color: transparent !important;
-  visibility: hidden !important;
+/* obs,스크롤,카드데스크,컨트롤,드래그,컨트린,다이스,수정,헤더,마크패널,모달,모니터링,새주사위,스케일링,스크린패널,타이머,볼륨 */
+
+body {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0px auto;
+    overflow: hidden;
 }
 
-.sc-fDUjeW irPYZJ;
-.MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation6 sc-dVSXPv ktZsQs css-175dgcc;
-.MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorDefault MuiAppBar-positionFixed sc-kSCeZB jFTmfo mui-fixed css-wga6ab {
-  visibility: hidden !important;
+::-webkit-scrollbar {
+    display: none !important;
 }
 
-.MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation6 sc-dVSXPv ktZsQs css-175dgcc * {
-  visibility: visible !important;
+.sc-iiBnab {
+  display: none;
 }
 
-.MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation6 sc-dVSXPv ktZsQs css-175dgcc {
-  position: fixed !important; 
-  top: 0 !important;
-  left: 0 !important;
-  margin: 0 !important;
-  z-index: 99999 !important;
+
+.MuiDrawer-root.MuiDrawer-docked {
+    display: none;
+}
+/* 패널*/
+div[tabindex="0"][style^="right:"] {
+    width: 100%;
+}
+
+[aria-label="Ctrl + ドラッグ"],
+[aria-label="Command + ドラッグ"] {
+  display: none;
+}
+
+[aria-label="Ctrl + ドラッグ"],
+[aria-label="Command + ドラッグ"] {
+  display: none;
+}
+
+div[aria-label*="のダイス ["] > [src*="_dice/"] {
+    display: none;
+}
+
+div:not([class]) > button.MuiFab-root {
+    display: none;
+}
+
+header.MuiAppBar-positionFixed {
+    display: none;
+}
+
+.sc-ezjsFQ {
+  display: none;
+}
+
+.MuiDialog-root {
+  display: none;
+}
+
+.MuiSnackbar-root {
+    display: none;
+}
+
+div[style="position: relative; width: 100%; height: 100%; overflow: hidden;"] {
+    display: none;
+}
+
+[aria-label="盤面を拡大する"],
+[aria-label="盤面を拡大する"] + span,
+[aria-label="盤面を縮小する"] {
+    display: none;
+}
+
+.sc-iuhWPH {
+  display: none;
+}
+
+
+
+.MuiPaper-elevation5 {
+    display: none;
+}
+
+#root>div>div[tabindex="0"][style] > div:nth-child(3) {
+    display: none;
+}
