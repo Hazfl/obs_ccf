@@ -8,3 +8,11 @@ header.MuiAppBar-positionFixed+div {display: none;}
 div[class^="sc-"] > [class^="MuiBadge-root sc-"],div[class^="sc-"] > [class^="MuiBadge-root sc-"] + div {display: none;}
 
 figure {display: none;}
+
+.sc-iuhWPH {
+  display: none;
+}
+
+.sc-ezjsFQ {
+  display: none;
+}
